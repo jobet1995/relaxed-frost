@@ -1,6 +1,6 @@
-#
-# This module for main
-
+"""
+Main
+"""
 from flask import Flask
 
 app = Flask(__name__)
