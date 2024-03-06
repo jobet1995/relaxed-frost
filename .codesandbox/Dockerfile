@@ -12,6 +12,8 @@ RUN pip install pylint
 
 RUN pylint $(find . -name '*.py')
 
+RUN pip install requests
+
 EXPOSE 5000
 
 ENV NAME python
